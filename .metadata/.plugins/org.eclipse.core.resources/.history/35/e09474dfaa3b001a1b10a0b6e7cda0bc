@@ -1,0 +1,14 @@
+
+public class ArraysAndLoop {
+
+	public static void main(String[] args) {
+		//Dec4are variable
+		int[] marks = {23, 56, 6, 45, 67, 20, 34} ;
+		//Make to String all elements of array
+		//Print in console
+		System.out.println(marks[0]);
+		
+
+	}
+
+}

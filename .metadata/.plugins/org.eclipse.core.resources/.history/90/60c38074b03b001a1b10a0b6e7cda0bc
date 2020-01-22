@@ -1,0 +1,15 @@
+
+public class ArraysSumForLoop {
+
+	
+	public static void main(String[] args) {
+		int[] marks = { 23, 56, 6, 45, 67, 20, 34, 65 };
+		
+		//sum all values of arrays
+		//print to console
+		
+		System.out.println(marks[0]+marks[1]);
+
+	}
+
+}

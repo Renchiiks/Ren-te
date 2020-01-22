@@ -1,0 +1,24 @@
+
+public class PrimType {
+
+	
+	public static void main(String[] args) {
+		//numeric data primitive type
+		int integer =2;
+		long longInteger= 234355L;
+		short shortInteger = 234;
+		byte byteInteger = 20;
+		//Floating-Point type real 
+		double doubleFloutNumber = 0.33d;
+		float floatNumber = 0.23456f;
+		//
+		char charSybol = 33;
+		char charSybolAsNumber = 33;
+		System.out.println(charSybol);
+		System.out.println(charSybolAsNumber);
+		
+		
+
+	}
+
+}
