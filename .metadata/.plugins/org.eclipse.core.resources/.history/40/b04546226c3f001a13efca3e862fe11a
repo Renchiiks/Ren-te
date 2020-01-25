@@ -1,0 +1,19 @@
+package lv.renate.learnstring;
+
+public class TestStringClass {
+
+	
+	public static void main(String[] args) {
+		String str = "Index";
+		String strClass = new String(str);
+		
+		System.out.println(str);
+		System.out.println("Strng like obj: "+strClass);
+		
+		int stringLenght = str.length();
+		System.out.println(stringLenght); 
+		
+		System.out.println(str.indexOf(2));
+	}
+
+}

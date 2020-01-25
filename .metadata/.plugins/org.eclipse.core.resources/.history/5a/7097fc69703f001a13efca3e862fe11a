@@ -1,0 +1,13 @@
+package lv.renate.reapeatarray;
+
+public class ScannerAndArray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

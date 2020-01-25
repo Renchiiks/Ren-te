@@ -1,0 +1,16 @@
+package lv.renate;
+
+import lv.renate.player.FootballPlayer;
+
+public class Testjava {
+
+	
+	public static void main(String[] args) {
+		FootballPlayer player = new FootballPlayer();
+		player.setName("Ronaldo");
+		player.getName();
+		System.out.println(player.getName());
+
+	}
+
+}
