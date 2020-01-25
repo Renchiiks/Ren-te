@@ -1,0 +1,17 @@
+package lv.renate.learnjavaclass;
+
+public class TestJavaProgram {
+
+	
+	public static void main(String[] args) {
+		Box boxObject = new Box();
+		
+		
+		double width = 20.34;
+		boxObject.width = width;
+		
+		System.out.println(boxObject.width);
+
+	}
+
+}

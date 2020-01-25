@@ -1,0 +1,23 @@
+package lv.renate.learnjavaclass;
+
+public class TestJavaProgram {
+
+	
+	public static void main(String[] args) {
+		Box boxObject = new Box();
+		double volume;
+		
+		
+		boxObject.width = 20.34;
+		boxObject.height = 3.67;
+		boxObject.depth = 23.6;
+		
+		volume = boxObject.width * boxObject.height * boxObject.depth;
+		
+		
+		
+		System.out.println("Volume: "+volume);
+
+	}
+
+}
