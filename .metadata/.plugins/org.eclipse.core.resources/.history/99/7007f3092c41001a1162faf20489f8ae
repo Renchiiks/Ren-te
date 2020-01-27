@@ -1,0 +1,5 @@
+package lv.renate.bookstore;
+
+public class Author {
+
+}
