@@ -1,0 +1,13 @@
+package lv.renate.users;
+
+public class Student {
+	private int numCourse = 0;
+	private String[] courses;
+	private int[] grades;
+	
+	public Student(String name, String adress){
+		super(name, adress);
+	}
+	public printCourses();
+
+}

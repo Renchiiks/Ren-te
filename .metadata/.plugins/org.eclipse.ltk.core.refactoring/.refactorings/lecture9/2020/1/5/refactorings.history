@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;lv.renate.graph.point4D.java&apos; to &apos;Point4D.java&apos;&#x0A;- Original project: &apos;lecture9&apos;&#x0A;- Original element: &apos;lv.renate.graph.point4D.java&apos;&#x0A;- Renamed element: &apos;lv.renate.graph.Point4D.java&apos;" description="Rename compilation unit &apos;point4D.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;lv.renate.graph{point4D.java" name="Point4D.java" references="false" stamp="1580320996172" version="1.0"/>
+</session>
