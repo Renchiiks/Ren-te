@@ -7,7 +7,8 @@ public class Person {
 		return adress;
 	}
 	public Person(String name, String adress){
-		
+		this.name = name;
+		this.adress = adress;
 	}
 	
 	public void setAdress(String adress) {
@@ -18,7 +19,7 @@ public class Person {
 	}
 	
 	public String toString(){
-		return this.name+"("+adress+")";
+		return this.name+"("+this.adress+")";
 	}
 
 }
