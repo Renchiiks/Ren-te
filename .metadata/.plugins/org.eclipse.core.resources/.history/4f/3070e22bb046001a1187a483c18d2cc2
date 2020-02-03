@@ -1,0 +1,22 @@
+package lv.renate;
+
+import java.util.ArrayList;
+
+public class TestTaskArrayList {
+
+	
+	public static void main(String[] args) {
+		ArrayList<String> array = new ArrayList<>();
+		
+		array.add("Mazda");
+		array.add("BMW");
+		array.add("Opel");
+		array.add("Ford");
+		
+		for(cars: array[]);
+		System.out.println(array);
+		System.out.println(array.size());
+
+	}
+
+}

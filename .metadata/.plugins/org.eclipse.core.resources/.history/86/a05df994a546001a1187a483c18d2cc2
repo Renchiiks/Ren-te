@@ -1,0 +1,19 @@
+package lv.renate;
+
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	
+	public static void main(String[] args) {
+		String[] stringArr;
+		Scanner sc = new Scanner(System.in);
+		sc.nextLine();
+		
+		System.out.println("Enter name:");
+		String name = sc.nextLine();
+	
+
+	}
+
+}

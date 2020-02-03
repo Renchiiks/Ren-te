@@ -1,0 +1,8 @@
+package lv.renate.module;
+
+import java.util.ArrayList;
+
+public class League {
+	private String leagueName = "";
+	private ArrayList <Team> nameOfTeams;
+}
