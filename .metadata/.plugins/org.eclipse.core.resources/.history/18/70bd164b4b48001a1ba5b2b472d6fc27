@@ -1,0 +1,45 @@
+package lv.renate.module;
+
+public class Team {
+	private String teamName ="";
+	private int wins = 0;
+	private int loses = 0;
+	private int ties = 0;
+	
+	public Team (String nameOfTeam){
+		this.teamName = nameOfTeam;
+		this.wins = 0;
+		this.loses = 0;
+		this.ties = 0;
+	}	
+	public int gamesPlayed(){
+		
+		return (this.wins+this.loses+this.ties);
+	}
+	public String getTeamName() {
+		return teamName;
+	}
+	public void setTeamName(String teamName) {
+		this.teamName = teamName;
+	}
+	public int getWins() {
+		return wins;
+	}
+	public void setWins(int wins) {
+		this.wins = wins;
+	}
+	public int getLoses() {
+		return loses;
+	}
+	public void setLoses(int loses) {
+		this.loses = loses;
+	}
+	public int getTies() {
+		return ties;
+	}
+	public void setTies(int ties) {
+		this.ties = ties;
+	}
+	
+	
+}

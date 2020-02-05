@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class League {
 	private String leagueName = "";
-	private ArrayList <Team> nameOfTeams;
+	private ArrayList<Team> nameOfTeams;
 	
 	public League(String leagueName){
 		this.leagueName = leagueName;
@@ -24,6 +24,21 @@ public class League {
 	public void setNameOfTeams(ArrayList<Team> nameOfTeams) {
 		this.nameOfTeams = nameOfTeams;
 	}
+	public void recordWinAndLoss(Team winner, Team loser){
+		
+		winner.setWins(1);
+		loser.setLoses(1);
+	}
+
+
+	@Override
+	public String toString() {
+		return "League [leagueName=" + leagueName + ", nameOfTeams="
+				+ nameOfTeams + "]";
+	}
+
+
+	
 	
 	
 }

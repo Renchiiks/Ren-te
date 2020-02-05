@@ -40,6 +40,11 @@ public class Team {
 	public void setTies(int ties) {
 		this.ties = ties;
 	}
+	@Override
+	public String toString() {
+		return "Team [teamName=" + teamName + ", wins=" + wins + ", loses="
+				+ loses + ", ties=" + ties + "]";
+	}
 	
 	
 }

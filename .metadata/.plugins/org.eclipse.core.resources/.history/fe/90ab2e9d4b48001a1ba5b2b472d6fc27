@@ -1,0 +1,34 @@
+package lv.renate.test;
+
+import java.util.ArrayList;
+
+import lv.renate.module.League;
+import lv.renate.module.Team;
+
+public class testTeamAndLeague {
+
+	
+	public static void main(String[] args) {
+		
+		//ArrayList<Team> arr = new ArrayList<>();
+		 //Team ska = new Team("SKA");
+		
+		
+		 Team cska = new Team ("CSKA");
+		 
+		 
+		 
+		 //arr.add(ska);
+		
+		
+		 League khl = new League("KHL");
+		khl.nameOfTeams.add(cska);
+		
+		
+		
+		//khl.setNameOfTeams(arr);
+		
+		System.out.println(khl.toString());
+	}
+
+}

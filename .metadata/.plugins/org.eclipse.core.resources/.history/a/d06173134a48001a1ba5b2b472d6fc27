@@ -1,0 +1,19 @@
+package lv.renate.test;
+
+import lv.renate.module.League;
+import lv.renate.module.Team;
+
+public class testTeamAndLeague {
+
+	
+	public static void main(String[] args) {
+		
+		
+		
+		League khl = new League("KHL");
+		Team ska = new Team("SKA");
+		
+		khl.nameOfTeams.add(ska);		
+	}
+
+}
