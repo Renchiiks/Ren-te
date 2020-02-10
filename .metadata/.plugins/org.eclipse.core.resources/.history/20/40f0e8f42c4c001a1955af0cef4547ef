@@ -1,10 +1,10 @@
 package lv.renate.module;
 
 public class Team {
-	public String teamName ="";
-	public int wins = 0;
-	public int loses = 0;
-	public int ties = 0;
+	private String teamName ="";
+	private int wins = 0;
+	private int loses = 0;
+	private int ties = 0;
 	
 	public Team (String nameOfTeam){
 		this.teamName = nameOfTeam;
@@ -45,11 +45,6 @@ public class Team {
 		return "\nTeam [teamName=" + teamName + ", wins=" + wins + ", loses="
 				+ loses + ", ties=" + ties + "]";
 	}
-	
-	public int totalPoints(){
-		return(this.wins * 2 + this.ties);
-	}
-	
 	
 	
 }

@@ -35,13 +35,15 @@ public class testTeamAndLeague {
 			
 		 
 		 
+		 
+		 
 		 League khl = new League("KHL");
 		 
 		 
 		//khl.nameOfTeams.add(cska);
-		 khl.recordWinAndLoss("SKA","CSKA");
-//		 khl.recordWinAndLoss(ska,dinamo);
-//		 khl.recordWinAndLoss(dinamo,cska);
+		 khl.recordWinAndLoss(ska,cska);
+		 khl.recordWinAndLoss(ska,dinamo);
+		 khl.recordWinAndLoss(dinamo,cska);
 		 
 		 khl.recordTies(cska, dinamo);
 		 

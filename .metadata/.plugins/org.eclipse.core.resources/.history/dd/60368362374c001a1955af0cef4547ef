@@ -11,10 +11,6 @@ public class testTeamAndLeague {
 	public static void main(String[] args) {
 		
 		ArrayList<Team> arrTeam = new ArrayList<>();
-		
-	
-		
-		
 		 Team ska = new Team("SKA");
 		 Team cska = new Team ("CSKA");
 		 Team dinamo = new Team ("DINAMO");
@@ -29,19 +25,13 @@ public class testTeamAndLeague {
 		 arrTeam.add(spartak);
 		 arrTeam.add(torpedo);
 		 
-		for(Team name:arrTeam){
-			System.out.println(name.getTeamName());	
-			}
-			
-		 
-		 
 		 League khl = new League("KHL");
 		 
 		 
 		//khl.nameOfTeams.add(cska);
-		 khl.recordWinAndLoss("SKA","CSKA");
-//		 khl.recordWinAndLoss(ska,dinamo);
-//		 khl.recordWinAndLoss(dinamo,cska);
+		 khl.recordWinAndLoss(ska,cska);
+		 khl.recordWinAndLoss(ska,dinamo);
+		 khl.recordWinAndLoss(dinamo,cska);
 		 
 		 khl.recordTies(cska, dinamo);
 		 

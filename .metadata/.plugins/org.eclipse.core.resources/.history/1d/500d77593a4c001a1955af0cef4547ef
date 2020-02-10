@@ -37,7 +37,7 @@ public class League {
 		return teamCreated;
 	}
 
-	public void recordWinAndLoss(String winnerName, String loserName) {
+	public void recordWinAndLoss(Team winnerName, Team loserName) {
 		Team winner;
 		Team loser;
 

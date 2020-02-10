@@ -1,9 +1,0 @@
-package lv.renate.module;
-
-public class Team {
-	private String teamName ="";
-	private int wins = 0;
-	private int loses = 0;
-	private int ties = 0;
-	
-}

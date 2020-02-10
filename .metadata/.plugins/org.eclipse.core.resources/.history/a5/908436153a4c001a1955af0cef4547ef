@@ -26,18 +26,8 @@ public class League {
 	public void setNameOfTeams(ArrayList<Team> nameOfTeams) {
 		this.nameOfTeams = nameOfTeams;
 	}
-	public Team teamWithName(String nameTooLookFor) {
-		Team teamCreated = null;
-		for (Team team : this.nameOfTeams) {
-			if (team.teamName.equals(nameTooLookFor)) {
-				teamCreated = team;
-			}
-		}
 
-		return teamCreated;
-	}
-
-	public void recordWinAndLoss(String winnerName, String loserName) {
+	public void recordWinAndLoss(Team winnerName, Team loserName) {
 		Team winner;
 		Team loser;
 
@@ -61,6 +51,15 @@ public class League {
 				+ nameOfTeams + "]";
 	}
 
-	
+	public Team teamWithName(String nameTooLookFor) {
+		Team teamCreated = null;
+		for (Team team : this.nameOfTeams) {
+			if (team.teamName.equals(nameTooLookFor)) {
+				teamCreated = team;
+			}
+		}
+
+		return teamCreated;
+	}
 
 }

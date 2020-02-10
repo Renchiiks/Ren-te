@@ -1,7 +1,7 @@
 package lv.renate.module;
 
 public class Team {
-	public String teamName ="";
+	private String teamName ="";
 	public int wins = 0;
 	public int loses = 0;
 	public int ties = 0;
@@ -49,7 +49,6 @@ public class Team {
 	public int totalPoints(){
 		return(this.wins * 2 + this.ties);
 	}
-	
 	
 	
 }
