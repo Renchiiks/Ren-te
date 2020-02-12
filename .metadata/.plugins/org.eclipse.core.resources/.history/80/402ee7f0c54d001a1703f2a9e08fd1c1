@@ -1,0 +1,12 @@
+package lv.renate.reapeatjavaClass;
+
+public class ImplemantInteface implements InterfaceClass {
+
+	@Override
+	public void sendEmail() {
+		System.out.println("email@email.com");
+		
+	}
+	
+
+}

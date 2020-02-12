@@ -1,0 +1,15 @@
+package lv.renate;
+
+import lv.renate.reapeatjavaClass.MyClass;
+
+public class TestOOP {
+	
+	
+	public static void main(String[] args){
+		
+		MyClass newObj = new MyClass();
+		newObj.getClass();
+		newObj.x;
+	}
+
+}

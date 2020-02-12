@@ -20,4 +20,15 @@
 <fullyQualifiedTypeName name="lv.renate.module.League"/>
 <fullyQualifiedTypeName name="lv.renate.module.Team"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.MyClassMethods"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.MyClass"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.MyClassConstructor"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.EncapsClass"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.InterfaceClass"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.ImplemantInteface"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.MyEnums"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.AbstractClass"/>
+<fullyQualifiedTypeName name="lv.renate.reapeatjavaClass.ClassExtendsAbstractClass"/>
 </qualifiedTypeNameHistroy>

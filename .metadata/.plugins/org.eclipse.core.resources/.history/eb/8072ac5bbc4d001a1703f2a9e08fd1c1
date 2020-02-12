@@ -1,0 +1,8 @@
+package lv.renate.reapeatjavaClass;
+
+public class MyClassMethods {
+	public static void myMethod(){
+		System.out.println("Hello world!");
+	}
+
+}

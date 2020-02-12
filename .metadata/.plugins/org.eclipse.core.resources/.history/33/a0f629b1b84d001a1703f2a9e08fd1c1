@@ -1,0 +1,11 @@
+package lv.renate;
+
+public class TestOOP {
+	
+	
+	public static void main(String[] args){
+		
+		
+	}
+
+}
